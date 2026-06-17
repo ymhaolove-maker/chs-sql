@@ -5,4 +5,4 @@ CHS-SQL proposes an SLM-based framework for the Text-to-SQL task. In the Schema 
 
 During the SQL generation phase, the CHS-SQL method utilizes Schema Linking results that balance precision and recall, as input for SQL generation to effectively improving SQL accuracy. Additionally, Beam Search is employed during SQL inference to help the SLMs avoid becoming trapped in local optima, while model internal confidence is used to select the highest-confidence SQL statement from multiple generations of SLMs. The combined effect of these multiple methods ultimately improves SLMs performance on Text-to-SQL task.
 
-![CHS-SQL Structure]([images/logo.png](https://github.com/ymhaolove-maker/chs-sql/blob/main/CHS-SQL%E7%9F%A2%E9%87%8F%E5%9B%BE%200507.svg))
+![CHS-SQL Structure]([images/chs-sql-structure.jpg])
